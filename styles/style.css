@@ -1,0 +1,91 @@
+
+
+.work-sans-normal {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* Sheared style star */
+.display-flex{
+  display: flex;
+}
+
+/* DARK03 */
+.text-gray{
+  color: #424242;
+}
+
+/* dark03 */
+.text-light-gray{
+  color: #727272;
+}
+
+.bg-light{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+.btn-primary{
+  background-color: rgb(255, 144, 14);
+  color: rgb(255, 255, 255);
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  border-radius: 8px;
+  border: none;
+}
+
+/* header styles start here */
+
+
+.navber {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand{
+  font-size: 3rem;
+font-weight: 700;
+
+}
+
+.nav-item{
+  list-style: none;
+  margin-right: 30px;
+  
+}
+.nav-link{
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navber, .banner{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+/* banner styles start here */
+
+.banner-content{
+  max-width: 850px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.banner-title{
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.banner-image{
+  width: 100%;
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+  .navber, .nav-links{
+    flex-direction: column;
+  }
+}
